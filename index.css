@@ -1,0 +1,219 @@
+/* Navbar */
+#body {
+  position: relative;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+}
+
+.left,
+.right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.texto-preto-nav{
+  color: #000
+}
+/* Navbar */
+
+/* Hero */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-container {
+  padding-top: 60px;
+  position: relative;
+  height: 500px;
+}
+
+.hero-image {
+  background-image: url("https://media.giphy.com/media/pVGsAWjzvXcZW4ZBTE/giphy.gif"),
+    url("paper.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+/* Hero */
+
+/* Sobre */
+
+.column-sobre {
+  margin:30px;
+  border-radius:10px;
+  padding:25px;
+  text-align:center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sobre {
+  border: none;
+  outline: 0;
+  padding: 50px 0 20px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+/* Sobre */
+
+
+/* Edicoes */
+.edicoes {
+  max-width: 600px;
+  width: 100%;
+}
+
+.edicoes .titulo-edicoes {
+  padding: 25px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.edicoes .carousel-item {
+  height: 300px;
+}
+
+.slide_custom-edicoes .carousel-caption {
+  top: 0px;
+  text-align: left;
+  left: 0%;
+  padding-top: 0;
+}
+
+.slide_custom-edicoes p {
+  margin: 0;
+}
+
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(90, 90, 90);
+}
+
+.carousel-indicators {
+  bottom: -60px;
+}
+
+.slide_custom-edicoes h2.titulo-edicoes {
+  margin: 30px 0;
+}
+.slide_custom-edicoes .card {
+  border: none !important;
+  margin: 10px 10px;
+  max-width: 200px;
+}
+.slide_custom-edicoes .card-body {
+  padding: 10px;
+}
+.slide_custom-edicoes .text-color {
+  color: #000;
+}
+/* Edicoes */
+
+/* Depoimentos */
+#depoimentos {
+  text-align: center;
+  margin: 50px auto 70px;
+}
+
+#depoimentos .title {
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+#depoimentos .carousel {
+  width: 600px;
+}
+
+#depoimentos .carousel-item {
+  border: transparent;
+  background-color: #eee;
+  padding: 50px;
+}
+/* Depoimentos */
+
+/* Banner Inscricao */
+.banner-inscricao {
+  width: 100vw;
+}
+
+.banner-inscricao-conteudo {
+  background-image: url("imagens/action-2277292_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-inscricao-titulo {
+  font-size: 32px;
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* Banner Inscricao */
+
+/* Footer */
+.footer {
+  padding: 30px 0 50px;
+}
+
+#imagem1 img {
+  margin-top: 15px;
+}
+
+#imagem4 img {
+  margin-left: 50px;
+}
+/* Footer */
